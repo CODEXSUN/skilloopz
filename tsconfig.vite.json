@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "plugins": [],
+    "types": ["vite/client", "node"],
+    "incremental": false
+  },
+  "include": ["src/vite/**/*", "vite.config.ts", "server/**/*"],
+  "exclude": ["node_modules", "src/generated", "src/app/api"]
+}
