@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import type { NavItemData } from "@/lib/navigation-service";
+import type { NavItemData } from "@/types/navigation";
 
 interface UseNavigationResult {
   items: NavItemData[];

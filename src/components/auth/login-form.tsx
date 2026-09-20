@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Loader2, Mail, Lock, ArrowRight, Fingerprint } from "lucide-react";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

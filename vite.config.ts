@@ -7,9 +7,6 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
-      "next/link": path.resolve(__dirname, "src/vite/compat/link.tsx"),
-      "next/image": path.resolve(__dirname, "src/vite/compat/image.tsx"),
-      "next/navigation": path.resolve(__dirname, "src/vite/compat/navigation.ts"),
     },
   },
   server: {

@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import Link from "@/vite/platform/link";
+import { usePathname } from "@/vite/platform/navigation";
 import {
   X, LayoutDashboard, BookOpen, Award, Trophy, Users, BarChart3, Eye, Settings,
   type LucideIcon,
@@ -9,7 +9,7 @@ import {
 
 import { cn } from "@/lib/utils";
 import { useNavigation } from "@/hooks/useNavigation";
-import type { NavItemData } from "@/lib/navigation-service";
+import type { NavItemData } from "@/types/navigation";
 
 const iconMap: Record<string, LucideIcon> = {
   LayoutDashboard,

@@ -19,8 +19,6 @@ export function ProgramsIndex() {
               href={`/programs/${program.slug}`}
               className="group relative min-h-[380px] overflow-hidden rounded-3xl border border-white/10 bg-[#0a0b13] transition hover:-translate-y-1 hover:border-white/25"
             >
-              {/* This Vite-owned page intentionally uses a native image. */}
-              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={program.coverImage}
                 alt={program.coverAlt}

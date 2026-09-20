@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Search, ArrowRight, BookOpen, User as UserIcon, FileText, Tag, Grid3X3, X } from "lucide-react";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface SearchCourse {

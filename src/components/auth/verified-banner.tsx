@@ -1,6 +1,6 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
+import { useSearchParams } from "@/vite/platform/navigation";
 import { CheckCircle } from "lucide-react";
 
 export function VerifiedBanner() {

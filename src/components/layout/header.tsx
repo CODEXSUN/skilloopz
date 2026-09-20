@@ -1,7 +1,7 @@
 "use client";
 
 import { Menu, LogOut, User, GraduationCap, Users, HeartHandshake, Loader2 } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/vite/platform/navigation";
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import { Clock, BookOpen, Users, Tag } from "lucide-react";
 
 import { cn } from "@/lib/utils";

@@ -1,7 +1,7 @@
 "use client";
 
 import { BookOpen, type LucideIcon } from "lucide-react";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 
 interface EmptyStateProps {
   icon?: LucideIcon;

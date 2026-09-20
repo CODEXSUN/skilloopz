@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { ArrowRight, Sparkles, Search, Tag } from "lucide-react";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import { useCourses, type CourseListItem } from "@/hooks/useCourses";
 import { CourseGrid } from "@/components/courses/course-grid";
 

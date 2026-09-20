@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowUpRight, BookOpen, MapPin } from "lucide-react";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import { useEffect, useRef, useState } from "react";
 
 export function CollaborationsAndPartners() {

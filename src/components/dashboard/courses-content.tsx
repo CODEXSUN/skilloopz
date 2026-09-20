@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { BookOpen, Clock, ArrowRight } from "lucide-react";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 
 const easing = [0.16, 1, 0.3, 1] as const;
 

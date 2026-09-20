@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import { ChevronDown, FileText } from "lucide-react";
 
 import { cn } from "@/lib/utils";

@@ -3,7 +3,7 @@ import { Navigate, useParams, useSearchParams } from "react-router-dom";
 import { PublicLayout } from "@/components/layout/public-layout";
 import { AppLayout } from "@/components/layout/app-layout";
 import { CoursesContent } from "@/components/courses/courses-content";
-import { CourseDetailContent } from "@/app/courses/[courseId]/page";
+import { CourseDetailContent } from "@/components/courses/course-detail-content";
 import { OnboardingWizard } from "@/components/onboarding/onboarding-wizard";
 import { DashboardCoursesContent } from "@/components/dashboard/courses-content";
 

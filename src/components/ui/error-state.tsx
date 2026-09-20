@@ -1,7 +1,7 @@
 "use client";
 
 import { AlertTriangle, RefreshCw } from "lucide-react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/vite/platform/navigation";
 
 interface ErrorStateProps {
   title?: string;

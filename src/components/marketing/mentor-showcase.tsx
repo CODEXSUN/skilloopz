@@ -96,4 +96,4 @@ export function MentorShowcase() {
     </section>
   );
 }
-import Image from "next/image";
+import Image from "@/vite/platform/image";

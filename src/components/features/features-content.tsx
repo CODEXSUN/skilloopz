@@ -2,7 +2,7 @@
 
 import { ArrowRight, BrainCircuit, LayoutTemplate, Trophy, BarChart3, Wand2, Users, Download, SlidersHorizontal, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 
 const easing = [0.16, 1, 0.3, 1] as const;
 

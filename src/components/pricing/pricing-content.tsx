@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Check, ArrowRight, Sparkles, HelpCircle, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 
 const easing = [0.16, 1, 0.3, 1] as const;
 

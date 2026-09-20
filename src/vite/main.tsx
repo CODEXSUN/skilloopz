@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { PublicLayout } from "@/components/layout/public-layout";
 import { marketingPrograms, getMarketingProgram } from "@/lib/programs/catalog";
 import "./fonts.css";
-import "@/app/globals.css";
+import "./globals.css";
 
 const LandingPage = lazy(() => import("@/components/marketing/landing-page").then((module) => ({ default: module.LandingPage })));
 const AboutContent = lazy(() => import("@/components/about/about-content").then((module) => ({ default: module.AboutContent })));
@@ -14,7 +14,7 @@ const PricingContent = lazy(() => import("@/components/pricing/pricing-content")
 const ApplicationForm = lazy(() => import("@/components/marketing/application-form").then((module) => ({ default: module.ApplicationForm })));
 const ProgramDetailPage = lazy(() => import("@/components/programs/program-detail-page").then((module) => ({ default: module.ProgramDetailPage })));
 const ProgramsIndex = lazy(() => import("@/components/programs/programs-index").then((module) => ({ default: module.ProgramsIndex })));
-const LoginPage = lazy(() => import("@/app/(auth)/login/page"));
+const LoginPage = lazy(() => import("./pages/login"));
 const CatalogPage = lazy(() => import("./pages/learning").then((module) => ({ default: module.CatalogPage })));
 const CoursePage = lazy(() => import("./pages/learning").then((module) => ({ default: module.CoursePage })));
 const OnboardingPage = lazy(() => import("./pages/learning").then((module) => ({ default: module.OnboardingPage })));

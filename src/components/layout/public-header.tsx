@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, ArrowUpRight, UserRound } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import { useAuth } from "@/hooks/useAuth";
 import { SkilloopzLogo } from "@/components/branding/skilloop-logo";
 

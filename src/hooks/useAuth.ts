@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/vite/platform/navigation";
 import { useAuthStore, type LocalUser } from "@/stores/authStore";
 
 export function useAuth() {

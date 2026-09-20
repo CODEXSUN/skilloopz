@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import {
   ArrowUpRight,
   CornerDownLeft,

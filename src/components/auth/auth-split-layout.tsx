@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 import { Sparkles } from "lucide-react";
 import { SkilloopzLogo } from "@/components/branding/skilloop-logo";
 

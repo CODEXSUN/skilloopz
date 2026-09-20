@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter } from "@/vite/platform/navigation";
 import { motion } from "framer-motion";
 import { Check, ChevronRight, Loader2, Sparkles, BookOpen, Users, Heart } from "lucide-react";
 

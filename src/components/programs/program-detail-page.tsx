@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
-import Image from "next/image";
+import Link from "@/vite/platform/link";
+import Image from "@/vite/platform/image";
 import { useState } from "react";
 import {
   ArrowLeft,

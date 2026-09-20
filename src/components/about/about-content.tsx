@@ -2,7 +2,7 @@
 
 import { ArrowRight, Sparkles, Target, Eye, Heart, Zap, Globe, Shield } from "lucide-react";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import Link from "@/vite/platform/link";
 
 const easing = [0.16, 1, 0.3, 1] as const;
 
